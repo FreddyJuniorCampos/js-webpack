@@ -22,3 +22,15 @@ Plugins (complementos): Nos van a ayudar a extender las funcionalidades con los 
 añadir otras configuraciones.
 Ejemplo : hay un modulo llamado HTMLWebpackPlugin que este se encarga de crear un HTML
 personalizado que le inyecta todos los bundles finales que compilamos.
+
+¿Qué es Babel?
+Es un transcompilador de JavaScript que agarra el código ECMAScript 2015 en adelante y lo transforma en una versión que todos los navegadores anteriores lo puedan usar
+
+HtmlWebpackPlugin
+Es un plugin para inyectar javascript, css, favicons, y nos facilita la tarea de enlazar los bundles a nuestro template HTML.
+
+Loaders para CSS y preprocesadores de CSS
+
+Un preprocesador CSS es un programa que te permite generar CSS a partir de la syntax única del preprocesador. Existen varios preprocesadores CSS de los cuales escoger, sin embargo, la mayoría de preprocesadores CSS añadirán algunas características que no existen en CSS puro, como variable, mixins, selectores anidados, entre otros. Estas características hacen la estructura de CSS más legible y fácil de mantener.
+
+post procesadores son herramientas que procesan el CSS y lo transforman en una nueva hoja de CSS que le permiten optimizar y automatizar los estilos para los navegadores actuales
